@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
 }
 .menu-banner-bg{
     background-color: #F0FFF0;
@@ -129,6 +131,54 @@ body{
  }
  .seat-number img{
     width: 15%;
+}
+
+.testmonial{
+    margin-top: 70px;
+    
+   
+}
+.testmonial-heading{
+   
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.testmonial p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 50px 0px 10px 0px;
+    background-color: #282531;;
+}
+.footer-desc p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+.footer-course-list ul li{
+    font-weight: bold;  
+}
+.footer-course-list ul li{
+    list-style: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.copy-right{
+    font-size: 16px;
+    color: #CDCDCD;
+    margin-top: 50px;
+
 }
  
 
