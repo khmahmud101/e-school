@@ -1,9 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
 }
 .menu-banner-bg{
     background-color: #F0FFF0;
     padding-bottom: 25px;
+    margin-bottom: 50px;
 }
 .main-logo {
     padding: 20px;
@@ -12,16 +14,20 @@ body{
 .top-menu{
     padding-top: 22px;
 }
-
-.signin{
-    border-radius: 30px;
-    margin-left: 20px;
+.top-menu li,.signin{
+    margin-left:20px ;
 }
-.signin a{
-    padding: 0px 15px;
+
+.signin,.get-started,.buy-now{
+    border-radius: 33px;
+    padding: 12px 36px;
     color: #fff;
     text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Roboto;
 }
+
 .banner-area{
     margin-top: 50px;
 }
@@ -40,20 +46,89 @@ body{
     line-height: 36px;
     color:#6C6B6B;
 }
-.get-started{
-    border-radius: 30px;
+
+
+
+.topic-content{
+    
+    background-color:#F8FFFB;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+   
+   
+}
+.topic-content:hover{
+    background-color:#fff;
 }
 
-.get-started a{
-    padding: 0px 15px;
-    color: #fff;
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+
+.topic-content img{
+    width: 50px;
+    height: 50px;
+    
+}
+.topic-content h3{
+    
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.topic-content p{
+    color: #585859;
+}
+.courses-list{
+    margin-top: 80px;
+}
+.course-caption{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.course{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 11px;
+}
+.course-img,.course-content{
+    border:none; 
+ }
+
+ .course-title{
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    
+ }
+
+ .course-desc{
     font-size: 16px;
+    color: #585859;
+ }
+
+
+ .date{
+    font-weight: 500;
+    font-size: 14px;
+    color: #585859;
+ }
+ .date img{
+    width: 8%;
 }
 
-.mt-50{
-    margin-top: 50px;
+.seat-number{
+    font-weight: 500;
+    font-size: 14px;
+    color: #585859;
+ }
+ .seat-number img{
+    width: 15%;
 }
+ 
+
