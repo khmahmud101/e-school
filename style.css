@@ -4,19 +4,20 @@ body{
     margin: 0;
     padding: 0;
 }
+/***** Main Menu banne area *****/
 .menu-banner-bg{
     background-color: #F0FFF0;
     padding-bottom: 25px;
     margin-bottom: 50px;
 }
-.main-logo {
-    padding: 20px;
+.main-logo,.top-menu{
+    padding-top: 20px;
 }
-
-.top-menu{
+.menu-signin{
     padding-top: 22px;
 }
-.top-menu li,.signin{
+
+.top-menu li{
     margin-left:20px ;
 }
 
@@ -49,7 +50,7 @@ body{
     color:#6C6B6B;
 }
 
-
+/***** Topic CSS *****/
 
 .topic-content{
     
@@ -81,6 +82,7 @@ body{
 .topic-content p{
     color: #585859;
 }
+/***** Course area *****/
 .courses-list{
     margin-top: 80px;
 }
@@ -133,6 +135,7 @@ body{
     width: 15%;
 }
 
+/***** Tesmonial CSS *****/
 .testmonial{
     margin-top: 70px;
     
@@ -151,7 +154,12 @@ body{
     line-height: 30px;
     color: #000000;
 }
+.testmonial-img{
+    text-align: right;
+}
 
+
+/***** footer CSS *****/
 footer{
     margin-top: 100px;
     padding: 50px 0px 10px 0px;
@@ -180,5 +188,84 @@ footer{
     margin-top: 50px;
 
 }
+
+/***** media query *****/
+
+@media screen and (min-width: 600px) {
+    .main-logo img{
+        width: 100%;
+    }
+    .top-menu{
+        text-align: right;
+    }
+    .course,.topic-content{
+        margin-bottom: 20px;
+    }
+    .banner-img{
+        padding-top: 30px;
+    }
+
+    .banner-area,.menu-signin,.main-logo,.top-menu{
+        text-align: center;
+    }
+
+    .seat-number img{
+        width: 8%;
+       }
+        .testmonial-heading,.course{
+           text-align: center;
+       }
+        .testmonial-img{
+            text-align: center;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+        .testmonial p{
+            text-align: center;
+        }
+        .footer-course-list,.footer-desc{
+            text-align: center;
+        }
+
+
+
+  }
+
+  @media screen and (max-width: 600px){
+    .top-menu {
+        text-align: center;
+    }
+    .main-logo img{
+        width: 100%;
+    }
+        .course,.topic-content{
+            margin-bottom: 20px;
+        }
+        .banner-img{
+            padding-top: 30px;
+        }
+
+        .banner-area,.menu-signin,.main-logo,.top-menu{
+            text-align: center;
+        }
+
+        .seat-number img{
+            width: 8%;
+           }
+            .testmonial-heading,.course{
+               text-align: center;
+           }
+            .testmonial-img{
+                text-align: center;
+                padding-bottom: 20px;
+                width: 100%;
+            }
+            .testmonial p{
+                text-align: center;
+            }
+            .footer-course-list,.footer-desc{
+                text-align: center;
+            }
  
 
+    }
