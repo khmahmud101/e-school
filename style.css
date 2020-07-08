@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.menu-banner-bg{
+    background-color: #F0FFF0;
+    padding-bottom: 25px;
+}
+.main-logo {
+    padding: 20px;
+}
+
+.top-menu{
+    padding-top: 22px;
+}
+
+.signin{
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.signin a{
+    padding: 0px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.banner-area{
+    margin-top: 50px;
+}
+.banner-title{
+   
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner-description{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color:#6C6B6B;
+}
+.get-started{
+    border-radius: 30px;
+}
+
+.get-started a{
+    padding: 0px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
