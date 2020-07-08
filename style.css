@@ -4,15 +4,18 @@ body{
     margin: 0;
     padding: 0;
 }
+
 /***** Main Menu banne area *****/
 .menu-banner-bg{
     background-color: #F0FFF0;
     padding-bottom: 25px;
     margin-bottom: 50px;
 }
+
 .main-logo,.top-menu{
     padding-top: 20px;
 }
+
 .menu-signin{
     padding-top: 22px;
 }
@@ -34,6 +37,7 @@ body{
 .banner-area{
     margin-top: 50px;
 }
+
 .banner-title{
    
     font-style: normal;
@@ -41,6 +45,7 @@ body{
     font-size: 48px;
     line-height: 70px;
 }
+
 .banner-description{
     font-family: Poppins;
     font-style: normal;
@@ -56,36 +61,33 @@ body{
     
     background-color:#F8FFFB;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    
-   
-   
+    padding: 40px 10px 20px 10px;
 }
+
 .topic-content:hover{
     background-color:#fff;
 }
 
-
 .topic-content img{
     width: 50px;
     height: 50px;
-    
 }
+
 .topic-content h3{
-    
     margin-top: 20px;
     font-weight: 500;
     font-size: 24px;
-
 }
+
 .topic-content p{
     color: #585859;
 }
+
 /***** Course area *****/
 .courses-list{
     margin-top: 80px;
 }
+
 .course-caption{
     color: #000000;
     text-align: center;
@@ -93,11 +95,13 @@ body{
     font-size: 36px;
     margin-bottom: 50px;
 }
+
 .course{
     background-color: #fff;
     padding: 10px;
     border-radius: 11px;
 }
+
 .course-img,.course-content{
     border:none; 
  }
@@ -108,21 +112,19 @@ body{
     font-size: 24px;
     line-height: 36px;
     color: #413960;
-    
- }
+}
 
- .course-desc{
+.course-desc{
     font-size: 16px;
     color: #585859;
  }
 
-
- .date{
+.date{
     font-weight: 500;
     font-size: 14px;
     color: #585859;
- }
- .date img{
+}
+.date img{
     width: 8%;
 }
 
@@ -131,6 +133,7 @@ body{
     font-size: 14px;
     color: #585859;
  }
+
  .seat-number img{
     width: 15%;
 }
@@ -138,9 +141,8 @@ body{
 /***** Tesmonial CSS *****/
 .testmonial{
     margin-top: 70px;
-    
-   
 }
+
 .testmonial-heading{
    
     text-align: center;
@@ -149,11 +151,13 @@ body{
     font-size: 36px;
     margin-bottom: 50px;
 }
+
 .testmonial p{
     font-size: 16px;
     line-height: 30px;
     color: #000000;
 }
+
 .testmonial-img{
     text-align: right;
 }
@@ -165,15 +169,18 @@ footer{
     padding: 50px 0px 10px 0px;
     background-color: #282531;;
 }
+
 .footer-desc p{
     font-size: 16px;
     line-height: 30px;
     color: #FFFFFF;
 
 }
+
 .footer-course-list ul li{
     font-weight: bold;  
 }
+
 .footer-course-list ul li{
     list-style: none;
     font-weight: normal;
@@ -191,45 +198,90 @@ footer{
 
 /***** media query *****/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) and (max-width:1100px){
+    .signin{
+        padding: 12px 20px;
+    } 
+
+    .banner-title{
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .topic-content{
+        padding: 40px 10px 20px 10px;
+       
+    }
+   
+    
+    .topic-content h3{
+        font-size: 20px;
+    }
+
+    .date img{
+        width: 20%;
+    }
+    .seat-number img{
+        width: 30%;
+    }
+
+    .testmonial-img img{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width:900px) {
     .main-logo img{
         width: 100%;
     }
+    .banner-title{
+        font-size: 35px;
+        line-height: 60px;
+    }
+
     .top-menu{
         text-align: right;
     }
-    .course,.topic-content{
-        margin-bottom: 20px;
+
+    .signin{
+       
+        padding: 12px 20px;
     }
+
     .banner-img{
         padding-top: 30px;
     }
 
-    .banner-area,.menu-signin,.main-logo,.top-menu{
+    .course,.topic-content{
+        margin-bottom: 20px;
+    }
+
+   .banner-area,.menu-signin,.main-logo,.top-menu,.testmonial-heading,.course{
         text-align: center;
     }
 
-    .seat-number img{
-        width: 8%;
-       }
-        .testmonial-heading,.course{
-           text-align: center;
-       }
-        .testmonial-img{
-            text-align: center;
-            padding-bottom: 20px;
-            width: 100%;
-        }
-        .testmonial p{
-            text-align: center;
-        }
-        .footer-course-list,.footer-desc{
-            text-align: center;
-        }
+    .date img{
+        width: 20%;
+    }
+    
+   
+     .seat-number img{
+        width: 40%;
+    }
+   
+    .testmonial-img img{
+        text-align: center;
+        padding-bottom: 20px;
+        width: 80%;
+    }
 
+    .testmonial p{
+        text-align: center;
+    }
 
-
-  }
+    .footer-course-list,.footer-desc{
+            text-align: center;
+    }
+   
+}
 
   @media screen and (max-width: 600px){
     .top-menu {
@@ -238,34 +290,38 @@ footer{
     .main-logo img{
         width: 100%;
     }
-        .course,.topic-content{
+    .course,.topic-content{
             margin-bottom: 20px;
-        }
-        .banner-img{
-            padding-top: 30px;
-        }
-
-        .banner-area,.menu-signin,.main-logo,.top-menu{
-            text-align: center;
-        }
-
-        .seat-number img{
-            width: 8%;
-           }
-            .testmonial-heading,.course{
-               text-align: center;
-           }
-            .testmonial-img{
-                text-align: center;
-                padding-bottom: 20px;
-                width: 100%;
-            }
-            .testmonial p{
-                text-align: center;
-            }
-            .footer-course-list,.footer-desc{
-                text-align: center;
-            }
- 
-
     }
+
+    .banner-img{
+            padding-top: 30px;
+    }
+
+    .banner-area,.menu-signin,.main-logo,.top-menu{
+            text-align: center;
+    }
+
+    .seat-number img{
+        width: 8%;
+    }
+
+    .testmonial-heading,.course{
+        text-align: center;
+    }
+
+    .testmonial-img{
+        text-align: center;
+        padding-bottom: 20px;
+         width: 100%;
+    }
+
+    .testmonial p{
+        text-align: center;
+    }
+            
+    .footer-course-list,.footer-desc{
+        text-align: center;
+    }
+ 
+}
